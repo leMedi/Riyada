@@ -1,10 +1,13 @@
 :root {
 	--main-font-color: #222;
-	--main-link-color: #3498DB;
+	--main-link-color: #2ecc71;
+
+	--color-blue: #3498DB;
 }
 
 *{
 	font-family: 'El Messiri', sans-serif;
+	text-align: right;
 }
 
 .hamburger-button span{
@@ -18,9 +21,94 @@
 /* ============================
 ==== #main-header
 ==============================*/ 
+header#main-header{
+	background: #fff;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#main-header .navbar{
+	margin-bottom: 2px;
+}
 
 /* Navigation Menu */
 #main-nav li{
 	text-align: right;
 	font-size: 20px;
+}
+
+
+.title-decoration{
+	border-bottom: 26px solid rgba(0,0,0,0.2);
+	border-left: 10px solid transparent;
+	height: 0;
+	width: 10px;
+	margin-left: 10px;
+	float: right;
+}
+
+
+
+/* ============================
+==== #main-header
+==============================*/ 
+#main{
+	padding-top: 60px;
+}
+
+.section-header{
+	color: var(--main-link-color);
+	border-right: 15px solid rgba(0,0,0,0.2);
+	/*padding-bottom: 4px;*/
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#books{
+	display: block;
+    white-space: nowrap;
+     overflow: auto; 
+	height: 110px;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+#books::-webkit-scrollbar { 
+    display: none; 
+}
+
+#books li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 5px;
+}
+
+
+
+/* ============================
+==== #main-footer
+==============================*/ 
+#main-footer{
+	background: #222;
+	color: #fff;
+	padding: 5px;
+	color: #999;
+}
+
+.social{
+	font-size: 20px;
+    padding: 10px;
+    border: 0px solid #70726F;
+    border-right: 100px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+#main-footer p.footer-copyright{
+	margin: 0;
+}
+
+
+
+.footer-copyright:hover{
+	color: #fff;
 }
