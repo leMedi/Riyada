@@ -1,0 +1,26 @@
+:root {
+	--main-font-color: #222;
+	--main-link-color: #3498DB;
+}
+
+*{
+	font-family: 'El Messiri', sans-serif;
+}
+
+.hamburger-button span{
+	background: var(--main-font-color);
+}
+
+.hamburger-button:hover span{
+	background: var(--main-link-color);
+}
+
+/* ============================
+==== #main-header
+==============================*/ 
+
+/* Navigation Menu */
+#main-nav li{
+	text-align: right;
+	font-size: 20px;
+}
